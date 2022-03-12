@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    environment:
+      SESSION_SECRET: foobar
+    ports:
+      - '8080:8080'
