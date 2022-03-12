@@ -10,8 +10,7 @@ func main() {
 
 	router.Setup(e)
 
-	err := e.Start(":8080")
-	if err != nil {
+	if err := e.Start(":8080"); err != nil {
 		panic(err)
 	}
 }
