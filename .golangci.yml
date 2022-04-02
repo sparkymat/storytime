@@ -12,7 +12,7 @@ linters-settings:
   cyclop:
     max-complexity: 10
   lll:
-    line-length: 140
+    line-length: 160
   revive:
     ignore-generated-header: true
     severity: error
@@ -74,7 +74,7 @@ linters-settings:
       - name: cognitive-complexity
         arguments: [16]
       - name: line-length-limit
-        arguments: [140]
+        arguments: [160]
 
 issues:
   exclude-rules:
